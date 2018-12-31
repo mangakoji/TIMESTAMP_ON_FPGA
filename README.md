@@ -78,6 +78,13 @@ you can rescieve UART(com) your term you like.
 If you want other speed master clock , you set parameter C_FCK.
 and other baud rate , Set C_BAUD_RATE.
 
+
+5. ***Simulation***
+
+./RTL/TIMESTAMP_MAIN.v
+include testbench module TB_TIMESTAMP_MAIN()
+
+
 # Log
 2018-12-31mo : 1st release.
 
@@ -108,10 +115,6 @@ it active in VHDL and (vivado,Libero & Diamond) simuler way
   master clock is 48MHz
  but may be can use any FPGA/ASIC
 
-
-## Usage
-  clone and compile on Altera QuartusII 
-  I compiled on v18.1 lite
 
 
 
