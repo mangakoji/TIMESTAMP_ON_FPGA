@@ -1,0 +1,4 @@
+// TIMESTAMP.v
+// Sun Dec 30 19:24:55 JST 2018
+// 5C289CF7
+parameter [31:0] C_TIMESTAMP = 32'h5C289CF7 ;
